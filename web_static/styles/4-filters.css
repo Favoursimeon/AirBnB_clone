@@ -1,0 +1,26 @@
+/* Styling section tag */
+.container .filters {
+        background-color: #ffffff;
+        height: 70px;
+        width: 100%;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        position: relative;
+}
+
+/* Styling Section button to Search */
+.container .filters button {
+        position: absolute;
+        font-size: 18px;
+        background-color: #ff5a5f;
+        color: #ffffff;
+        height: 48px;
+        width: 20%;
+        border: none;
+        border-radius: 4px;
+        top: 11px;
+        right: 30px;
+}
+section.filters button:hover {
+        opacity: 0.9;
+}

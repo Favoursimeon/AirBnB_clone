@@ -1,0 +1,50 @@
+/* Styling section tag */
+.container .filters {
+        background-color: #ffffff;
+        height: 70px;
+        width: 100%;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        position: relative;
+}
+
+/* Styling Section button to Search */
+.container .filters button {
+        position: absolute;
+        font-size: 18px;
+        background-color: #ff5a5f;
+        color: #ffffff;
+        height: 48px;
+        width: 20%;
+        border: none;
+        border-radius: 4px;
+        top: 11px;
+        right: 30px;
+}
+section.filters button:hover {
+        opacity: 0.9;
+}
+
+/* Styling for the Location and Amenities Sections */
+.filters .locations,
+.filters .amenities {
+        display: inline-block;
+        position: relative;
+        height: 100%;
+        width: 25%;
+        margin: 0;
+}
+.filters .locations {
+        border-right: 1px solid #dddddd;
+}
+.locations h3,
+.amenities h3 {
+        font-weight: 600;
+        margin: 15px 0 0 40px;
+}
+.locations h4,
+.amenities h4 {
+        font-weight: 400;
+        font-size: 14px;
+        margin: 0 0 0 40px;
+}
